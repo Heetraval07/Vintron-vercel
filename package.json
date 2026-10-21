@@ -1,0 +1,12 @@
+{
+  "name": "vintron-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vintron Group website - prebuilt Vue SPA (public/) plus a Vercel serverless contact endpoint (api/contact.js)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js",
+    "check": "node scripts/check.js"
+  }
+}
